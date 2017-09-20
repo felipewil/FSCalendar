@@ -43,8 +43,8 @@
         self.titleLabel = label;
         
         view = [[UIView alloc] initWithFrame:CGRectZero];
-        view.backgroundColor = FSCalendarStandardLineColor;
-        // [_contentView addSubview:view];
+        view.backgroundColor = [UIColor clearColor];
+         [_contentView addSubview:view];
         self.bottomBorder = view;
         
         FSCalendarWeekdayView *weekdayView = [[FSCalendarWeekdayView alloc] init];
