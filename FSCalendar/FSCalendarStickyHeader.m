@@ -44,7 +44,7 @@
         
         view = [[UIView alloc] initWithFrame:CGRectZero];
         view.backgroundColor = FSCalendarStandardLineColor;
-        [_contentView addSubview:view];
+        // [_contentView addSubview:view];
         self.bottomBorder = view;
         
         FSCalendarWeekdayView *weekdayView = [[FSCalendarWeekdayView alloc] init];
